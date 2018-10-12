@@ -1,0 +1,40 @@
+---
+name: open-materials-datasets
+channels:
+  - defaults
+  - jkglasbrenner
+  - conda-forge
+  - matsci
+dependencies:
+  - anaconda=5.3.0=py37_0
+  - autopep8
+  - enumlib
+  - jupyter_nbextensions_configurator
+  - nodejs
+  - pyhamcrest=1.9.0
+  - sphinx_rtd_theme
+  - tabulate
+  - yapf=0.23.0
+  - pip:
+    - ase
+    - cite2c
+    - custodian
+    - flake8
+    - importmagic
+    - ipympl
+    - jupyterlab_code_formatter
+    - jupyterlab-git
+    - jupyterlab_github
+    - jupyterlab_templates
+    - msgpack
+    - monty
+    - nbdime
+    - pip==18.0
+    - plotly
+    - pybtex
+    - pydocstyle
+    - pymatgen
+    - pytest-runner
+    - typogrify
+    - yamllint
+...
