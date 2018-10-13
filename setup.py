@@ -32,6 +32,8 @@ setuptools.setup(
         "numpy",
         "pandas",
         "pymatgen",
+        "pymysql",
+        "sqlalchemy",
     ],
     extras_require={},
     entry_points="""
